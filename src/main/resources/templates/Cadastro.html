@@ -21,7 +21,7 @@
         </div>
         <div class="row justify-content-center mt-4">
             <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
-                <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="yaNn2u0X2tM0yfhfGuEhG79AcSYwF2puP7KV8blgzJaFmj2UZrzXLsTVlekpgQ4iAxkwxHkZPveQ4Wh8HwjBC9hg6BoQlSbL543yJhvmxE85cFxruqUo5Dnsin2XKaJK">
+                <form action="/cadastrar_cliente" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="yaNn2u0X2tM0yfhfGuEhG79AcSYwF2puP7KV8blgzJaFmj2UZrzXLsTVlekpgQ4iAxkwxHkZPveQ4Wh8HwjBC9hg6BoQlSbL543yJhvmxE85cFxruqUo5Dnsin2XKaJK">
                     <div class="row">
                         <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thanks for filling out
                             the form!</div>
@@ -29,19 +29,66 @@
                             problem!</div>
                     </div>
                     <div class="dragArea row">
+                       
                         <div class="col-md col-sm-12 form-group" data-for="name">
-                            <input type="text" name="name" placeholder="Nome completo" data-form-field="name" class="form-control" value="" id="name-form5-c">
+                            <input type="text" name="nome" placeholder="Nome completo" data-form-field="name" class="form-control" value="" id="nome">
                         </div>
+                       
                         <div class="col-md col-sm-12 form-group" data-for="email">
-                            <input type="email" name="email" placeholder="E-mail/celular" data-form-field="email" class="form-control" value="" id="email-form5-c">
+                            <input type="email" name="email" placeholder="Email" data-form-field="email" class="form-control" value="" id="email">
                         </div>
-                        <div class="col-12 form-group" data-for="url">
-                            <input type="url" name="url" placeholder="senha" data-form-field="url" class="form-control" value="" id="url-form5-c">
+                       
+		                <div class="col-12 form-group" data-for="cpf">
+                            <input type="text" name="cpf" placeholder="CPF" data-form-field="cpf" class="form-control" value="" id="cpf" required="required">
                         </div>
-                        <div class="col-12 form-group" data-for="textarea">
-                            <textarea name="textarea" placeholder="confirmar senha" data-form-field="textarea" class="form-control" id="textarea-form5-c"></textarea>
+                       
+                        <div class="col-12 form-group" data-for="rg">
+                            <input type="text" name="rg" placeholder="RG" data-form-field="rg" class="form-control" value="" id="rg" >
                         </div>
-                        <div class="col-lg-12 col-md-12 col-sm-12 align-center mbr-section-btn"><button type="submit" class="btn btn-primary display-4">Enviar</button></div>
+                       
+                       
+                       
+                        <div class="col-12 form-group" data-for="senha">
+                            <input type="password" name="senha" placeholder="senha" data-form-field="senha" class="form-control" value="" id="senha"  required="required">
+                        </div>
+                       
+                        <div class="col-12 form-group" data-for="senhaconfirm">
+                            <input type="password" name="senhaconfirm" placeholder="Confirme a Senha" data-form-field="senhaconfirm" class="form-control" value="" id="senhaconfirm" required="required">
+                        </div>
+                        
+                       
+		                <div class="col-12 form-group" data-for="cep">
+                            <input type="text" name="cep" placeholder="CEP" data-form-field="cep" class="form-control" value="" id="cep">
+                        </div>
+                       
+                        <div class="col-12 form-group" data-for="uf">
+                            <input type="text" name="uf" placeholder="UF" data-form-field="uf" class="form-control" value="" id="uf">
+                        </div>
+                                                       
+                        <div class="col-12 form-group" data-for="cidade">
+                            <input type="text" name="cidade" placeholder="Cidade" data-form-field="cidade" class="form-control" value="" id="cidade">
+                        </div>
+                        
+                                               
+		                <div class="col-12 form-group" data-for="bairro">
+                            <input type="text" name="bairro" placeholder="bairro" data-form-field="bairro" class="form-control" value="" id="bairro">
+                        </div>
+               
+		                <div class="col-12 form-group" data-for="cep">
+                            <input type="text" name="cep" placeholder="CEP" data-form-field="cep" class="form-control" value="" id="cep">
+                        </div>
+                       
+                        <div class="col-12 form-group" data-for="complemento">
+                            <input type="text" name="complemento" placeholder="complemento" data-form-field="complemento" class="form-control" value="" id="complemento">
+                        </div>
+                        
+                       
+                        <div class="col-lg-12 col-md-12 col-sm-12 align-center mbr-section-btn">
+                        	<button type="submit" class="btn btn-primary display-4">Enviar</button>
+                        	<button type="reset" class="btn btn-primary display-4">Limpar</button>
+                        </div>
+
+                        
                     </div>
                 </form>
             </div>
