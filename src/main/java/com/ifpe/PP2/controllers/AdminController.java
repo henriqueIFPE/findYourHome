@@ -11,4 +11,19 @@ public class AdminController {
 		return "admin/admPerfil";
 	}
 	
+	@GetMapping("/admin/doacao")
+	public String adminDoacao() {
+		return "admin/AdmAdocao";
+	}
+	
+	@GetMapping("/admin/adocao")
+	public String adminAdocao() {
+		return "admin/AdmAdocao";
+	}
+	
+	@GetMapping("/admin/users")
+	public String adminManutencaoUsuario() {
+		return "admin/AdmManutencaoUsuario.html";
+	}
+	
 }
